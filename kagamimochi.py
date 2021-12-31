@@ -1,8 +1,8 @@
 N = int(input())
-list_a = []
+mochi = []
 for i in range(N):
     x = int(input())
-    list_a.append(x)
-list_b = list(set(list_a))
-list_b.sort(reverse=True)
-print(len(list_b))
+    mochi.append(x)
+mochi_count = list(set(mochi))
+mochi_count.sort(reverse=True)
+print(len(mochi_count))
